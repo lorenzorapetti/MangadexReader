@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,27 @@
 		ED28CF27266BD2F50062EC04 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF8266BD2F40062EC04 /* Persistence.swift */; };
 		ED28CF28266BD2F50062EC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28CEF9266BD2F40062EC04 /* Assets.xcassets */; };
 		ED28CF29266BD2F50062EC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28CEF9266BD2F40062EC04 /* Assets.xcassets */; };
+		ED28CF3A266BD3BC0062EC04 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ED28CF39266BD3BC0062EC04 /* Alamofire */; };
+		ED28CF3D266BD5EB0062EC04 /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */; };
+		ED28CF3E266BD5EB0062EC04 /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */; };
+		ED28CF3F266BD5EB0062EC04 /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */; };
+		ED28CF40266BD5EB0062EC04 /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */; };
+		ED28CF42266BD6410062EC04 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF41266BD6410062EC04 /* Enums.swift */; };
+		ED28CF43266BD6410062EC04 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF41266BD6410062EC04 /* Enums.swift */; };
+		ED28CF44266BD6410062EC04 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF41266BD6410062EC04 /* Enums.swift */; };
+		ED28CF45266BD6410062EC04 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF41266BD6410062EC04 /* Enums.swift */; };
+		ED28CF47266BD69A0062EC04 /* MangaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF46266BD69A0062EC04 /* MangaResponse.swift */; };
+		ED28CF48266BD69A0062EC04 /* MangaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF46266BD69A0062EC04 /* MangaResponse.swift */; };
+		ED28CF49266BD69A0062EC04 /* MangaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF46266BD69A0062EC04 /* MangaResponse.swift */; };
+		ED28CF4A266BD69A0062EC04 /* MangaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF46266BD69A0062EC04 /* MangaResponse.swift */; };
+		ED28CF4C266BD6D20062EC04 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF4B266BD6D20062EC04 /* Manga.swift */; };
+		ED28CF4D266BD6D20062EC04 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF4B266BD6D20062EC04 /* Manga.swift */; };
+		ED28CF4E266BD6D20062EC04 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF4B266BD6D20062EC04 /* Manga.swift */; };
+		ED28CF4F266BD6D20062EC04 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF4B266BD6D20062EC04 /* Manga.swift */; };
+		ED28CF51266BDCDF0062EC04 /* Mangadex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF50266BDCDF0062EC04 /* Mangadex.swift */; };
+		ED28CF52266BDCDF0062EC04 /* Mangadex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF50266BDCDF0062EC04 /* Mangadex.swift */; };
+		ED28CF53266BDCDF0062EC04 /* Mangadex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF50266BDCDF0062EC04 /* Mangadex.swift */; };
+		ED28CF54266BDCDF0062EC04 /* Mangadex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF50266BDCDF0062EC04 /* Mangadex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +76,11 @@
 		ED28CF19266BD2F50062EC04 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED28CF1D266BD2F50062EC04 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ED28CF1F266BD2F50062EC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationResponse.swift; sourceTree = "<group>"; };
+		ED28CF41266BD6410062EC04 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		ED28CF46266BD69A0062EC04 /* MangaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaResponse.swift; sourceTree = "<group>"; };
+		ED28CF4B266BD6D20062EC04 /* Manga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga.swift; sourceTree = "<group>"; };
+		ED28CF50266BDCDF0062EC04 /* Mangadex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mangadex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28CF3A266BD3BC0062EC04 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +131,7 @@
 		ED28CEF3266BD2F30062EC04 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ED28CF3B266BD5C10062EC04 /* Schema */,
 				ED28CEF6266BD2F40062EC04 /* MangadexReaderApp.swift */,
 				ED28CEF7266BD2F40062EC04 /* ContentView.swift */,
 				ED28CEF8266BD2F40062EC04 /* Persistence.swift */,
@@ -159,6 +187,18 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		ED28CF3B266BD5C10062EC04 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CF3C266BD5EB0062EC04 /* PaginationResponse.swift */,
+				ED28CF41266BD6410062EC04 /* Enums.swift */,
+				ED28CF46266BD69A0062EC04 /* MangaResponse.swift */,
+				ED28CF4B266BD6D20062EC04 /* Manga.swift */,
+				ED28CF50266BDCDF0062EC04 /* Mangadex.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +215,9 @@
 			dependencies = (
 			);
 			name = "MangadexReader (iOS)";
+			packageProductDependencies = (
+				ED28CF39266BD3BC0062EC04 /* Alamofire */,
+			);
 			productName = "MangadexReader (iOS)";
 			productReference = ED28CEFE266BD2F40062EC04 /* MangadexReader.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +309,9 @@
 				Base,
 			);
 			mainGroup = ED28CEEE266BD2F30062EC04;
+			packageReferences = (
+				ED28CF38266BD3BC0062EC04 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = ED28CEFF266BD2F40062EC04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -318,8 +364,13 @@
 			files = (
 				ED28CF20266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */,
 				ED28CF26266BD2F50062EC04 /* Persistence.swift in Sources */,
+				ED28CF4C266BD6D20062EC04 /* Manga.swift in Sources */,
+				ED28CF3D266BD5EB0062EC04 /* PaginationResponse.swift in Sources */,
 				ED28CF22266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */,
+				ED28CF42266BD6410062EC04 /* Enums.swift in Sources */,
 				ED28CF24266BD2F50062EC04 /* ContentView.swift in Sources */,
+				ED28CF47266BD69A0062EC04 /* MangaResponse.swift in Sources */,
+				ED28CF51266BDCDF0062EC04 /* Mangadex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +380,13 @@
 			files = (
 				ED28CF21266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */,
 				ED28CF27266BD2F50062EC04 /* Persistence.swift in Sources */,
+				ED28CF4D266BD6D20062EC04 /* Manga.swift in Sources */,
+				ED28CF3E266BD5EB0062EC04 /* PaginationResponse.swift in Sources */,
 				ED28CF23266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */,
+				ED28CF43266BD6410062EC04 /* Enums.swift in Sources */,
 				ED28CF25266BD2F50062EC04 /* ContentView.swift in Sources */,
+				ED28CF48266BD69A0062EC04 /* MangaResponse.swift in Sources */,
+				ED28CF52266BDCDF0062EC04 /* Mangadex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +394,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28CF3F266BD5EB0062EC04 /* PaginationResponse.swift in Sources */,
+				ED28CF49266BD69A0062EC04 /* MangaResponse.swift in Sources */,
+				ED28CF53266BDCDF0062EC04 /* Mangadex.swift in Sources */,
+				ED28CF4E266BD6D20062EC04 /* Manga.swift in Sources */,
+				ED28CF44266BD6410062EC04 /* Enums.swift in Sources */,
 				ED28CF13266BD2F40062EC04 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED28CF40266BD5EB0062EC04 /* PaginationResponse.swift in Sources */,
+				ED28CF4A266BD69A0062EC04 /* MangaResponse.swift in Sources */,
+				ED28CF54266BDCDF0062EC04 /* Mangadex.swift in Sources */,
+				ED28CF4F266BD6D20062EC04 /* Manga.swift in Sources */,
+				ED28CF45266BD6410062EC04 /* Enums.swift in Sources */,
 				ED28CF1E266BD2F50062EC04 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +764,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED28CF38266BD3BC0062EC04 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED28CF39266BD3BC0062EC04 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED28CF38266BD3BC0062EC04 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		ED28CEF4266BD2F40062EC04 /* MangadexReader.xcdatamodeld */ = {
