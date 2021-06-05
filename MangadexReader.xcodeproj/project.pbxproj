@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED28CF13266BD2F40062EC04 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF12266BD2F40062EC04 /* Tests_iOS.swift */; };
+		ED28CF1E266BD2F50062EC04 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CF1D266BD2F50062EC04 /* Tests_macOS.swift */; };
+		ED28CF20266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF4266BD2F40062EC04 /* MangadexReader.xcdatamodeld */; };
+		ED28CF21266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF4266BD2F40062EC04 /* MangadexReader.xcdatamodeld */; };
+		ED28CF22266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF6266BD2F40062EC04 /* MangadexReaderApp.swift */; };
+		ED28CF23266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF6266BD2F40062EC04 /* MangadexReaderApp.swift */; };
+		ED28CF24266BD2F50062EC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF7266BD2F40062EC04 /* ContentView.swift */; };
+		ED28CF25266BD2F50062EC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF7266BD2F40062EC04 /* ContentView.swift */; };
+		ED28CF26266BD2F50062EC04 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF8266BD2F40062EC04 /* Persistence.swift */; };
+		ED28CF27266BD2F50062EC04 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28CEF8266BD2F40062EC04 /* Persistence.swift */; };
+		ED28CF28266BD2F50062EC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28CEF9266BD2F40062EC04 /* Assets.xcassets */; };
+		ED28CF29266BD2F50062EC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28CEF9266BD2F40062EC04 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED28CF0F266BD2F40062EC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED28CEEF266BD2F30062EC04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED28CEFD266BD2F40062EC04;
+			remoteInfo = "MangadexReader (iOS)";
+		};
+		ED28CF1A266BD2F50062EC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED28CEEF266BD2F30062EC04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED28CF05266BD2F40062EC04;
+			remoteInfo = "MangadexReader (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED28CEF5266BD2F40062EC04 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		ED28CEF6266BD2F40062EC04 /* MangadexReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangadexReaderApp.swift; sourceTree = "<group>"; };
+		ED28CEF7266BD2F40062EC04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED28CEF8266BD2F40062EC04 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		ED28CEF9266BD2F40062EC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED28CEFE266BD2F40062EC04 /* MangadexReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangadexReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28CF01266BD2F40062EC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28CF06266BD2F40062EC04 /* MangadexReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangadexReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28CF08266BD2F40062EC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28CF09266BD2F40062EC04 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ED28CF0E266BD2F40062EC04 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28CF12266BD2F40062EC04 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ED28CF14266BD2F40062EC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28CF19266BD2F50062EC04 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28CF1D266BD2F50062EC04 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ED28CF1F266BD2F50062EC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED28CEFB266BD2F40062EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF03266BD2F40062EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF0B266BD2F40062EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF16266BD2F50062EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED28CEEE266BD2F30062EC04 = {
+			isa = PBXGroup;
+			children = (
+				ED28CEF3266BD2F30062EC04 /* Shared */,
+				ED28CF00266BD2F40062EC04 /* iOS */,
+				ED28CF07266BD2F40062EC04 /* macOS */,
+				ED28CF11266BD2F40062EC04 /* Tests iOS */,
+				ED28CF1C266BD2F50062EC04 /* Tests macOS */,
+				ED28CEFF266BD2F40062EC04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED28CEF3266BD2F30062EC04 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CEF6266BD2F40062EC04 /* MangadexReaderApp.swift */,
+				ED28CEF7266BD2F40062EC04 /* ContentView.swift */,
+				ED28CEF8266BD2F40062EC04 /* Persistence.swift */,
+				ED28CEF9266BD2F40062EC04 /* Assets.xcassets */,
+				ED28CEF4266BD2F40062EC04 /* MangadexReader.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ED28CEFF266BD2F40062EC04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CEFE266BD2F40062EC04 /* MangadexReader.app */,
+				ED28CF06266BD2F40062EC04 /* MangadexReader.app */,
+				ED28CF0E266BD2F40062EC04 /* Tests iOS.xctest */,
+				ED28CF19266BD2F50062EC04 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED28CF00266BD2F40062EC04 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CF01266BD2F40062EC04 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		ED28CF07266BD2F40062EC04 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CF08266BD2F40062EC04 /* Info.plist */,
+				ED28CF09266BD2F40062EC04 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ED28CF11266BD2F40062EC04 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CF12266BD2F40062EC04 /* Tests_iOS.swift */,
+				ED28CF14266BD2F40062EC04 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ED28CF1C266BD2F50062EC04 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED28CF1D266BD2F50062EC04 /* Tests_macOS.swift */,
+				ED28CF1F266BD2F50062EC04 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED28CEFD266BD2F40062EC04 /* MangadexReader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28CF2C266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "MangadexReader (iOS)" */;
+			buildPhases = (
+				ED28CEFA266BD2F40062EC04 /* Sources */,
+				ED28CEFB266BD2F40062EC04 /* Frameworks */,
+				ED28CEFC266BD2F40062EC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MangadexReader (iOS)";
+			productName = "MangadexReader (iOS)";
+			productReference = ED28CEFE266BD2F40062EC04 /* MangadexReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED28CF05266BD2F40062EC04 /* MangadexReader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28CF2F266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "MangadexReader (macOS)" */;
+			buildPhases = (
+				ED28CF02266BD2F40062EC04 /* Sources */,
+				ED28CF03266BD2F40062EC04 /* Frameworks */,
+				ED28CF04266BD2F40062EC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MangadexReader (macOS)";
+			productName = "MangadexReader (macOS)";
+			productReference = ED28CF06266BD2F40062EC04 /* MangadexReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED28CF0D266BD2F40062EC04 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28CF32266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ED28CF0A266BD2F40062EC04 /* Sources */,
+				ED28CF0B266BD2F40062EC04 /* Frameworks */,
+				ED28CF0C266BD2F40062EC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED28CF10266BD2F40062EC04 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ED28CF0E266BD2F40062EC04 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ED28CF18266BD2F50062EC04 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28CF35266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ED28CF15266BD2F50062EC04 /* Sources */,
+				ED28CF16266BD2F50062EC04 /* Frameworks */,
+				ED28CF17266BD2F50062EC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED28CF1B266BD2F50062EC04 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ED28CF19266BD2F50062EC04 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED28CEEF266BD2F30062EC04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED28CEFD266BD2F40062EC04 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					ED28CF05266BD2F40062EC04 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					ED28CF0D266BD2F40062EC04 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ED28CEFD266BD2F40062EC04;
+					};
+					ED28CF18266BD2F50062EC04 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ED28CF05266BD2F40062EC04;
+					};
+				};
+			};
+			buildConfigurationList = ED28CEF2266BD2F30062EC04 /* Build configuration list for PBXProject "MangadexReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED28CEEE266BD2F30062EC04;
+			productRefGroup = ED28CEFF266BD2F40062EC04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED28CEFD266BD2F40062EC04 /* MangadexReader (iOS) */,
+				ED28CF05266BD2F40062EC04 /* MangadexReader (macOS) */,
+				ED28CF0D266BD2F40062EC04 /* Tests iOS */,
+				ED28CF18266BD2F50062EC04 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED28CEFC266BD2F40062EC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF28266BD2F50062EC04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF04266BD2F40062EC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF29266BD2F50062EC04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF0C266BD2F40062EC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF17266BD2F50062EC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED28CEFA266BD2F40062EC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF20266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */,
+				ED28CF26266BD2F50062EC04 /* Persistence.swift in Sources */,
+				ED28CF22266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */,
+				ED28CF24266BD2F50062EC04 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF02266BD2F40062EC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF21266BD2F50062EC04 /* MangadexReader.xcdatamodeld in Sources */,
+				ED28CF27266BD2F50062EC04 /* Persistence.swift in Sources */,
+				ED28CF23266BD2F50062EC04 /* MangadexReaderApp.swift in Sources */,
+				ED28CF25266BD2F50062EC04 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF0A266BD2F40062EC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF13266BD2F40062EC04 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28CF15266BD2F50062EC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28CF1E266BD2F50062EC04 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED28CF10266BD2F40062EC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED28CEFD266BD2F40062EC04 /* MangadexReader (iOS) */;
+			targetProxy = ED28CF0F266BD2F40062EC04 /* PBXContainerItemProxy */;
+		};
+		ED28CF1B266BD2F50062EC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED28CF05266BD2F40062EC04 /* MangadexReader (macOS) */;
+			targetProxy = ED28CF1A266BD2F50062EC04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED28CF2A266BD2F50062EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED28CF2B266BD2F50062EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ED28CF2D266BD2F50062EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzorapetti.MangadexReader;
+				PRODUCT_NAME = MangadexReader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED28CF2E266BD2F50062EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzorapetti.MangadexReader;
+				PRODUCT_NAME = MangadexReader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED28CF30266BD2F50062EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzorapetti.MangadexReader;
+				PRODUCT_NAME = MangadexReader;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED28CF31266BD2F50062EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzorapetti.MangadexReader;
+				PRODUCT_NAME = MangadexReader;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED28CF33266BD2F50062EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzorapetti.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MangadexReader (iOS)";
+			};
+			name = Debug;
+		};
+		ED28CF34266BD2F50062EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzorapetti.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MangadexReader (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED28CF36266BD2F50062EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzorapetti.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MangadexReader (macOS)";
+			};
+			name = Debug;
+		};
+		ED28CF37266BD2F50062EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lorenzorapetti.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MangadexReader (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED28CEF2266BD2F30062EC04 /* Build configuration list for PBXProject "MangadexReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28CF2A266BD2F50062EC04 /* Debug */,
+				ED28CF2B266BD2F50062EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28CF2C266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "MangadexReader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28CF2D266BD2F50062EC04 /* Debug */,
+				ED28CF2E266BD2F50062EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28CF2F266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "MangadexReader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28CF30266BD2F50062EC04 /* Debug */,
+				ED28CF31266BD2F50062EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28CF32266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28CF33266BD2F50062EC04 /* Debug */,
+				ED28CF34266BD2F50062EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28CF35266BD2F50062EC04 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28CF36266BD2F50062EC04 /* Debug */,
+				ED28CF37266BD2F50062EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED28CEF4266BD2F40062EC04 /* MangadexReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED28CEF5266BD2F40062EC04 /* Shared.xcdatamodel */,
+			);
+			currentVersion = ED28CEF5266BD2F40062EC04 /* Shared.xcdatamodel */;
+			path = MangadexReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED28CEEF266BD2F30062EC04 /* Project object */;
+}
